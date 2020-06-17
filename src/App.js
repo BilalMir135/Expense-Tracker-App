@@ -32,17 +32,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <div className='container'>
-      <div className='app-wrapper'>
-        <GlobalContextProvider>
-          <Header />
-          <Balance />
-          <AddTransaction />
-          <IncomeList />
-          <ExpenseList />
-        </GlobalContextProvider>
-      </div>
-    </div> */
-}

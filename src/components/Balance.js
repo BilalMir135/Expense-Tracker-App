@@ -44,7 +44,7 @@ function Balance() {
     <div className='balance'>
       <h2>Your Balance</h2>
       <div className='balance-amount'>
-        <img src={coinsImage} width='50px' height='50px'></img>
+        <img src={coinsImage} alt='coins' width='50px' height='50px'></img>
         <h3 className={balanceColor}>
           ${(totalIncome - totalExpense).toFixed(2)}
         </h3>
